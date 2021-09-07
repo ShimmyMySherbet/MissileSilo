@@ -1,0 +1,11 @@
+﻿{
+	"Name": "MissileSilo.Unturned",
+	"Version": "1.0.0.0",
+	"Assemblies":
+	[
+		{
+			"Path": "/MissileSilo.Unturned.dll",
+			"Role": "Server"
+		}
+	]
+}
