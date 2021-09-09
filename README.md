@@ -13,7 +13,7 @@ I also plan to intergrate some features of my various plugins and modules.
 
 These include:
 
-* Logging Overhaul. See <a href="https://github.com/ShimmyMySherbet/RocketSeriLogging">Rocket SeriLogging</a>  This module would only be enabled if Openmod is not present, and OM does this already.
+* Logging Overhaul. See <a href="https://github.com/ShimmyMySherbet/RocketSeriLogging">Rocket SeriLogging</a>  This module would only be enabled if Openmod is not present, as OM does this already.
 * Rocket Extensions. See <a href="https://github.com/ShimmyMySherbet/RocketExtensions">RocketExtensions</a>. This would just be the inclusion of up-to-date RocketExtension libraries
 * Console title metrics. See <a href="https://github.com/ShimmyMySherbet/UnturnedConsoleMetrics">UnturnedConsoleMetrics</a>. This provides live server metrics in the title bar of Unturned's console
 
