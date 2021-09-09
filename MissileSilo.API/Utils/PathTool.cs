@@ -1,9 +1,10 @@
 ﻿using SDG.Unturned;
+using System;
 using System.IO;
 using System.Reflection;
 using UnityEngine;
 
-namespace MissileSilo.Unturned.Utils
+namespace MissileSilo.API.Utils
 {
     public static class PathTool
     {
@@ -13,7 +14,8 @@ namespace MissileSilo.Unturned.Utils
         public static string AssemblyCache => Path.Combine(SiloPath, "Cache");
         public static string RocketFolder => Path.Combine(ServerDir, "Rocket");
         public static string ExtrasFolder => Path.Combine(UnturnedDir, "Extras");
-        public static string PluginsFolder => Path.Combine(RocketFolder, "Plugins");
+        public static string RocketPlugins => Path.Combine(RocketFolder, "Plugins");
+        public static string RocketLibraries => Path.Combine(RocketFolder, "Libraries");
         public static string Extras_RocketmodFolder => Path.Combine(ExtrasFolder, "Rocket.Unturned");
 
         public static void Init()
@@ -25,7 +27,6 @@ namespace MissileSilo.Unturned.Utils
             {
                 codeBase = codeBase.Remove(0, 8);
             }
-
             var siloInfo = new FileInfo(codeBase);
             SiloPath = siloInfo.DirectoryName;
 
